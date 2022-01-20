@@ -9,9 +9,9 @@ public class IntLinkedList {
         if (last == null)
             last = new Node(i);
         else {
-            last.next = new Node(i);
-            last.next.prev = last;
-            last = last.next;
+            last.nextNode = new Node(i);
+            last.nextNode.previousNode = last;
+            last = last.nextNode;
         }
     }
 
@@ -33,7 +33,7 @@ public class IntLinkedList {
         if (isEmpty())
             return -1;
         int ret = last.value;
-        last = last.prev;
+        last = last.previousNode;
         return ret;
     }
 
