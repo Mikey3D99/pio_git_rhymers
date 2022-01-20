@@ -2,7 +2,6 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountOutRhymer {
 
-
     public static final int INT = -1;
     public static final int INT1 = 11;
     private final int[] NUMBERS = new int[12]; //"final has been added previously by repository owner"
@@ -31,6 +30,10 @@ public class DefaultCountOutRhymer {
         if (callCheck())
             return INT;
         return NUMBERS[total--];
+    }
+
+    public int getTotal() {
+        return total;
     }
 
 }
