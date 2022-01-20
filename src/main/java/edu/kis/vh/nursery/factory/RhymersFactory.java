@@ -4,13 +4,13 @@ import edu.kis.vh.nursery.DefaultCountOutRhymer;
 
 public interface RhymersFactory {
 
-    DefaultCountOutRhymer GetStandardRhymer();
+    DefaultCountOutRhymer getStandardRhymer();
 
-    DefaultCountOutRhymer GetFalseRhymer();
+    DefaultCountOutRhymer getFalseRhymer();
 
-    DefaultCountOutRhymer GetFIFORhymer();
+    DefaultCountOutRhymer getFifoRhymer();
 
-    DefaultCountOutRhymer GetHanoiRhymer();
+    DefaultCountOutRhymer getHanoiRhymer();
 
 }
 // kombinacja alt + strzałka przełącza daną kartę
