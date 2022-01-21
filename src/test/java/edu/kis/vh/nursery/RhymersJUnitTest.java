@@ -3,6 +3,8 @@ package edu.kis.vh.nursery;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+// testy jednostkowe przeszly dobrze podpunkt 1.5.3
 public class RhymersJUnitTest {
 
 	@Test
